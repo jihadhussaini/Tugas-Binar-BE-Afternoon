@@ -65,7 +65,7 @@ function setrika() {
 async function washingClothes() { // washingClothes
     await rendam();
     await kucek();
-    bilas();
+    await bilas();
     await jemur();
     setrika();
 };
